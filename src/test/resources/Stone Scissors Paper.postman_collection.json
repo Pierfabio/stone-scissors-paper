@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "f0a77c1b-ae45-4e35-b226-2286926b0985",
+		"name": "Stone Scissors Paper",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Check Round",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userMove\": \"scissors\",\r\n    \"AIMove\": \"stone\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/game/round",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"game",
+						"round"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
